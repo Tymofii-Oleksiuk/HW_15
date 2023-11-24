@@ -1,0 +1,39 @@
+.holder {
+    display: flex;
+    height: 300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 450px;
+    border-radius: top 50px bottom 0;
+}
+
+.item{
+    width: 150px;
+}
+
+.item:nth-child(1) {
+    background-color: red;
+    flex-grow: 2;
+    min-width: 225px;
+}
+
+.item:nth-child(2) {
+    background-color: blue;
+    order: 2;
+}
+
+.item:nth-child(3) {
+    background-color: blueviolet;
+    order: 3;
+}
+
+.item:nth-child(4) {
+    background-color: green;
+    order: 3;
+}
+
+.item:nth-child(5) {
+    background-color: orange;
+    flex-grow: 2;
+    min-width: 225px;
+}
