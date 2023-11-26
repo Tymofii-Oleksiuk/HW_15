@@ -12,9 +12,9 @@
 .item {
     flex-grow: 1;
     color: #0A3853;
-    font-family: Robot;
+    font-family: Robot sans-serif;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     display: flex;
     align-items: center;
